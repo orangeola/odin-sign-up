@@ -4,11 +4,6 @@ body {
    padding:0;
 }
 
-img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
 .main-left {
   background-image: url("pictures/plant.jpg"); 
   height: 100vh; 
@@ -20,4 +15,24 @@ img {
 
 .main-right {
     display: flex;
+    flex-direction: column;
+    flex: 1;
   }
+
+.header {
+    flex: 1;
+    background-color: rgb(242, 242, 242);
+    align-items: center;
+}
+
+.form {
+    position: relative;
+    box-shadow: 3px 1px 3px #ccc;
+    background-color: white;
+
+}
+
+.footer {
+    flex: 1;
+    background-color: rgb(242, 242, 242);
+}
