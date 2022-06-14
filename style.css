@@ -1,0 +1,23 @@
+body {
+   display: flex;
+   margin:0;
+   padding:0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.main-left {
+  background-image: url("pictures/plant.jpg"); 
+  height: 100vh; 
+  min-width: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-right {
+    display: flex;
+  }
