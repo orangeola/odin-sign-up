@@ -5,14 +5,18 @@ body {
    box-sizing: border-box;
 }
 
+a {
+  color: white;
+}
+
 .main-left {
   background-image: url("pictures/plant.jpg"); 
   min-height: 100vh;
-  width: 40%;
+  width: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+  position: relative;
 }
 
 .main-right {
@@ -73,6 +77,13 @@ label, input{
   font-size: 100px;
 }
 
+.main-left span {
+  color: white;
+  position: absolute;
+  width:100%;
+  bottom:0;
+  text-align:center;
+}
 
 /*
 input + span {
