@@ -12,6 +12,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .main-right {
@@ -49,6 +50,27 @@ form {
 label, input{
   display: flex;
   flex-direction: column;
+}
+
+.left-logo {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.3);
+  justify-content: center;
+  height: 150px;
+  object-fit: contain;
+  margin-top: 200px;
+}
+
+@font-face {
+  font-family: Norse-Bold;
+  src: url(font/Norse-Bold.otf);
+}
+
+.left-logo > p {
+  color: white;
+  align-self: center;
+  font-family: Norse-Bold;
+  font-size: 100px;
 }
 
 
