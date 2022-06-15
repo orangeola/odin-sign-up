@@ -27,6 +27,7 @@ body {
 }
 
 .form {
+  padding-left: 30px;
   position: relative;
   box-shadow: 3px 1px 3px #ccc;
   background-color: white;
@@ -36,3 +37,34 @@ body {
   flex: 1;
   background-color: rgb(242, 242, 242);
 }
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  column-gap: 60px;
+  row-gap: 15px;
+}
+
+label, input{
+  display: flex;
+  flex-direction: column;
+}
+
+
+/*
+input + span {
+  position: relative;
+    }
+
+input:required + span:before {
+  font-size: 0.7rem;
+  position: absolute;
+  content: "required";
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  top: 1px;
+}
+dont forget to add span on bottom if doing again
+*/
