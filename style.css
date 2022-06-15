@@ -16,8 +16,14 @@ body {
    padding:0;
 }
 
-a {
+.main-left a {
   color: white;
+}
+
+.footer a {
+  color: #596D48;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .main-left {
@@ -41,7 +47,7 @@ a {
   padding-left: 45px;
   padding-right: 18vw;
   flex: 1;
-  background-color: rgb(242, 242, 242);
+  background-color: rgb(245, 245, 245);
 
   display: flex;
   flex-direction: column;
@@ -57,7 +63,7 @@ a {
 .form {
   padding-left: 45px;
   position: relative;
-  box-shadow: 3px 1px 3px #ccc;
+  box-shadow: 3px 1px 10px #ccc;
   background-color: white;
   padding-bottom: 35px;
 }
@@ -72,7 +78,12 @@ a {
 .footer {
   padding-left: 45px;
   flex: 1;
-  background-color: rgb(242, 242, 242);
+  background-color: rgb(245, 245, 245);
+  padding-top: 35px;
+}
+
+.footer p {
+  padding-top: 35px;
 }
 
 form {
@@ -87,6 +98,7 @@ label, input{
   display: flex;
   flex-direction: column;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(20, 15, 11);
 }
 
 label {
@@ -121,6 +133,21 @@ label {
   width:100%;
   bottom:0;
   text-align:center;
+}
+
+button {
+
+  color: white;
+  background-color: #596D48;
+  padding: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 0;
+
+  box-shadow: 5px 5px 20px #ccc;
 }
 
 /*
