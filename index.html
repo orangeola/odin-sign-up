@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up Page</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" async></script> 
 </head>
 <body>
     <div class="main-left">
@@ -47,12 +48,13 @@
 
                 <div>
                     <label for="password">PASSWORD</label>
-                    <input type="password" id="password" name="password" required>
+                    <input type="password" id="password" name="password" oninput="verifyPassword()" required>
+                    <span></span>
                 </div>
 
                 <div>
                     <label for="pass_confirm">CONFIRM PASSWORD</label>
-                    <input type="password" id="pass_confirm" name="pass_confirm" required>
+                    <input type="password" id="pass_confirm" name="pass_confirm" oninput="verifyPassword()" required>
                 </div>
             </form>
         </div>

@@ -59,7 +59,6 @@ body {
   padding-bottom: 60px;
 }
 
-
 .form {
   padding-left: 45px;
   position: relative;
@@ -145,23 +144,23 @@ label {
   font-size: 16px;
   border-radius: 6px;
   border: 0;
-
   box-shadow: 5px 5px 20px #ccc;
 }
 
-/*
 input + span {
   position: relative;
     }
 
-input:required + span:before {
+.wrong + span:before {
   font-size: 0.7rem;
   position: absolute;
-  content: "required";
-  color: white;
-  background-color: black;
-  padding: 5px 10px;
+  content: "* Passwords do not match";
+  color: darkred;
+  width: 200px;
   top: 1px;
 }
-dont forget to add span on bottom if doing again
-*/
+
+.wrong {
+  border-color: darkred;
+  border-radius: 3px;
+}
