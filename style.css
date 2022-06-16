@@ -157,7 +157,6 @@ input + span {
   content: "* Passwords do not match";
   color: darkred;
   width: 200px;
-  top: 1px;
 }
 
 .wrong {
