@@ -135,8 +135,7 @@ label {
   text-align:center;
 }
 
-button {
-
+.footer input {
   color: white;
   background-color: #596D48;
   padding: 12px;

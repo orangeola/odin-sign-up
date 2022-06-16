@@ -24,7 +24,7 @@
 
         <div class="form">
             <p>Let's do this!</p>
-            <form>
+            <form id="myform">
                 <div>
                     <label for="first_name">FIRST NAME</label>
                     <input type="text" id="first_name" name="first_name" required>
@@ -42,23 +42,23 @@
 
                 <div>
                     <label for="phone">PHONE NUMBER</label>
-                    <input type="tel" id="phone" name="phone">
+                    <input type="tel" id="phone" name="phone" required>
                 </div>
 
                 <div>
                     <label for="password">PASSWORD</label>
-                    <input type="password" id="password" name="password">
+                    <input type="password" id="password" name="password" required>
                 </div>
 
                 <div>
                     <label for="pass_confirm">CONFIRM PASSWORD</label>
-                    <input type="password" id="pass_confirm" name="pass_confirm">
+                    <input type="password" id="pass_confirm" name="pass_confirm" required>
                 </div>
             </form>
         </div>
 
         <div class="footer">
-            <button>Create Account</button>
+            <input type="submit" form="myform" value="Create Account"/>
             <p>Already have an account? <a href="index.html">Log in</a></p>
         </div>
     </div>
